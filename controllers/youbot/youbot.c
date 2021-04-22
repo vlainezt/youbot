@@ -27,23 +27,29 @@ static void passive_wait(double sec) {
 }
 
 static void automatic_behavior() {
-  passive_wait(2.0);
+  passive_wait(1.0);
   base_reset();
-  passive_wait(2.0);
-  base_backwards();
-  passive_wait(2.0);
-  base_forwards();
-  passive_wait(2.0);
-  base_turn_left();
-  passive_wait(2.0);
-  base_turn_right();
-  passive_wait(2.0);
-  base_strafe_left();
-  passive_wait(2.0);
-  base_strafe_right();
-  passive_wait(2.0);
-  base_reset();
-  passive_wait(2.0);
+  passive_wait(1.0);
+  base_forwards(); //adelante
+  passive_wait(16.0); 
+  base_turn_left(); //izquierda
+  passive_wait(5.0);
+  base_forwards(); //adelante
+  passive_wait(12.0); 
+  base_turn_left(); //izquierda
+  passive_wait(3.0); 
+  base_forwards(); //adelante
+  passive_wait(12.0); 
+  base_turn_right(); //derecha
+  passive_wait(4.0); 
+  base_forwards(); //adelante
+  passive_wait(7.0);
+  base_turn_right(); //derecha
+  passive_wait(4.0);
+  base_forwards(); //adelante
+  passive_wait(17.0);
+  base_reset(); //detener
+  passive_wait(1.0);
 }
 
 int main(int argc, char **argv) {

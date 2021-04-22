@@ -34,8 +34,8 @@ WorldInfo {
   ]
 }
 Viewpoint {
-  orientation -0.21961568520320382 0.9420738451728385 0.2535070434011451 1.785035678350985
-  position 7.8067941924956346 5.720216996678626 -2.3204810308719983
+  orientation 0.00014812549984578099 0.8782507064831022 0.4782004544338789 3.14876436844021
+  position -0.002425577601428027 11.541087312679686 -7.426321395154978
   follow "youBot"
 }
 TexturedBackground {
@@ -156,19 +156,9 @@ PicketFence {
   name "picket fence(2)"
 }
 PicketFence {
-  translation 0.86 0 -2.47
-  rotation 0 1 0 3.14159
-  name "picket fence(3)"
-}
-PicketFence {
   translation 1.66 0 2.49
   rotation 0 1 0 3.14159
   name "picket fence(4)"
-}
-PicketFence {
-  translation 2.49 0 -2.35
-  rotation 0 1 0 -1.5707953071795862
-  name "picket fence(1)"
 }
 TrafficCone {
   translation 2.18 0 2.07
